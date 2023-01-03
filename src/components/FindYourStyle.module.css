@@ -1,0 +1,32 @@
+.styleContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.styleContainer h1 {
+  text-align: center;
+  color: var(--black);
+  font-size: 3.75rem;
+  line-height: 5.481rem;
+  margin: 5.125rem 0;
+}
+
+
+.styleImages {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  gap: 3.75rem;
+}
+
+
+.imgBlackBoot {
+  width: 25rem;
+  height: 37.5rem;
+}
+
+.imgWhiteBoot {
+  width: 37.5rem;
+  height: 47.371rem;
+}

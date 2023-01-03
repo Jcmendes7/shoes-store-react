@@ -1,0 +1,20 @@
+:root {
+  --gray-300: #777777;
+  --black: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+body, button, textarea,a {
+  color: var(--gray-300);
+}

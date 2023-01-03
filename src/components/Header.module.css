@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 0.8rem;
+  color: var(--gray-300);
+}
+
+.header img {
+  height: 4rem;
+}
+
+.navLink {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.navLink li {
+  padding: 0 0.5rem;
+}
+
+.navLink a {
+  text-decoration: none;
+}
