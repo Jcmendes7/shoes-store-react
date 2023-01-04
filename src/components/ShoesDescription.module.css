@@ -1,0 +1,21 @@
+.shoeDescription {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0.5rem;
+}
+
+.shoeDescription p,span {
+  color: var(--black);
+  font-weight: 700;
+}
+
+.shoeBox {
+  max-width: 16.25rem;
+  max-height: 24.25rem;
+  margin: 0 1.5rem;
+  background: var(--white);
+}
+
+.shoeBox img {
+  width: 100%;
+}

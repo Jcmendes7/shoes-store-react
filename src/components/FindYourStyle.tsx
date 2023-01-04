@@ -6,8 +6,12 @@ export function FindYourStyle() {
     <section className={styles.styleContainer}>
       <h1>Find Your Style</h1>
       <div className={styles.styleImages}>
-        <img className={styles.imgBlackBoot} src={styleBlackBoot} alt="imagem de uma mulher com botas pretas" />
-        <img className={styles.imgWhiteBoot} src={styleWhiteBoot} alt="imagem de uma mulher com botas brancas" />
+        <div className={styles.imgBlackBoot}>
+          <img  src={styleBlackBoot} alt="imagem de uma mulher com botas pretas" />
+        </div>
+        <div className={styles.imgWhiteBoot}>
+          <img  src={styleWhiteBoot} alt="imagem de uma mulher com botas brancas" />
+        </div>
       </div>
     </section>
   )
